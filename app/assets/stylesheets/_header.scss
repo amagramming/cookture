@@ -1,0 +1,27 @@
+.header {
+  height: 140px;
+  background-color: lightgreen;
+  .header-contents {
+    padding-top: 10px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    .title {
+      width: 300px;
+      padding-left: 70px;
+      color: red;
+      .mainTitle {
+        font-size: 30px;
+        padding-left: 10px;
+      }
+    }
+    .genres {
+      font-size: 25px;
+      color: orangered;
+      width: calc(100vw - 300px);
+      padding-left: 200px;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
