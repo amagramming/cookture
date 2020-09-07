@@ -6,8 +6,34 @@
     width: 300px;
     height: 1000px;
     background-color: lightpink;
+    position: relative;
+    .genreName {
+      color: red;
+      position: absolute;
+      top: 40px;
+      left: 40px;
+    }
   }
-  .genreList-contents {
-    width:  calc(100vw - 300px)
+  .genreList__contents {
+    width: calc(100vw - 300px);
+    .genreList__content {
+      height: 350px;
+      color: red;
+      display: flex;
+      position: relative;
+      top: 50px;
+      left: 50px;
+      &__picture {
+        width: 300px;
+        height: 300px;
+      }
+      &__text {
+        margin-left: 100px;
+      }
+      &__edit {
+        position: absolute;
+        right: 70px
+      }
+    }
   }
 }
