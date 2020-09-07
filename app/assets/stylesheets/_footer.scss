@@ -1,5 +1,23 @@
 .footer {
-  color: blue;
+  color: red;
   height: 100px;
   background-color: lightgreen;
+  .footer-contents {
+    padding-top: 10px;
+    .title {
+      width: auto;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .mainTitle {
+        font-size: 30px;
+      }
+      .subTitle {
+        width: 200px;
+        padding-left: 30px;
+      }
+    }
+  }
 }
+
