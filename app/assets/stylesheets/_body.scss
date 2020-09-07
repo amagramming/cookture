@@ -1,5 +1,13 @@
-.top {
-  color: red;
+.mainPage {
   height: 1000px;
   background-color: lightblue;
+  display: flex;
+  .genreList {
+    width: 300px;
+    height: 1000px;
+    background-color: lightpink;
+  }
+  .genreList-contents {
+    width:  calc(100vw - 300px)
+  }
 }
