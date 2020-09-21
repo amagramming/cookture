@@ -8,15 +8,16 @@
     align-items: center;
     justify-content: center;
     .title {
-      text-shadow: 1px 1px 3px;
       width: auto;
       height: 80px;
       .mainTitle {
         font-size: 30px;
         padding-left: 20px;
+        text-shadow: 1px 1px 20px;
       }
       .subTitle {
         width: 200px;
+        text-shadow: 3px 3px 20px;
       }
     }
   }
