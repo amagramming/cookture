@@ -6,8 +6,16 @@ class PostsController < ApplicationController
   def new  
 
   end
+<<<<<<< Updated upstream
   def edit
   end
+=======
+
+  def edit  
+
+  end
+
+>>>>>>> Stashed changes
 end
 
 
