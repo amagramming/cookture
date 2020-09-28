@@ -1,0 +1,33 @@
+.editPage {
+  display: flex;
+  justify-content: center;
+  &__contents {
+    width: 1200px;
+    .image {
+      display: flex;
+      justify-content: center;
+      background-color: pink;
+      &__box {
+        text-align: center;
+        width: 300px;
+        height: 250px;
+      }
+    }
+    .menu {
+      text-align: center;
+      background-color: pink;
+    }
+    .genre {
+      text-align: center;
+      background-color: pink;
+    }
+    .recipe {
+      text-align: center;
+      background-color: pink;
+    }
+    .editBtn {
+      text-align: center;
+      background-color: pink;
+    }
+  }
+}
