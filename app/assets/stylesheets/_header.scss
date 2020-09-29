@@ -25,9 +25,18 @@
       font-family: fantasy;
       color: orangered;
       width: calc(100vw - 300px);
-      padding-left: 200px;
       display: flex;
       justify-content: space-around;
+    }
+    .rogIn {
+      width: 70px;
+      font-size: 10px;
+      padding-right: 10px;
+    }
+    .signUp {
+      width: 70px;
+      font-size: 10px;
+      padding-right: 10px;
     }
   }
 }
