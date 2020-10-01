@@ -13,4 +13,6 @@
         %p レシピ 
         %p レシピ
         %p レシピ
-      .genreList__content__edit 編集ボタン  <!=編集と削除をタグ付で（Pictweet参照）>
+      = link_to "/posts/:id/edit" do
+        .editBtn 
+          .editBtn__text 編集
