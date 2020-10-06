@@ -9,7 +9,10 @@
       .salad Salad
       .alacarte A la carte
       .other Other
-    .rogIn ログイン
+    = link_to "", class: "topPage__btn"do
+      トップページ
+    = link_to "/users/:id/edit" do
+      .logIn 
+        .logIn__btn ログイン
     = link_to "/users/new", class: "signUp__btn"do
       新規登録
-    

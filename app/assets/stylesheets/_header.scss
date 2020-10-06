@@ -28,7 +28,16 @@
       display: flex;
       justify-content: space-around;
     }
-    .rogIn {
+
+    .topPage__btn {
+      width: 80px;
+      color: black;
+      font-size: 10px;
+      padding-right: 10px;
+      text-decoration: none;
+    }
+
+    .logIn {
       width: 70px;
       font-size: 10px;
       padding-right: 10px;
