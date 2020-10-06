@@ -11,8 +11,7 @@
       .other Other
     = link_to "", class: "topPage__btn"do
       トップページ
-    = link_to "/users/:id/edit" do
-      .logIn 
-        .logIn__btn ログイン
+     = link_to "/users/:id/edit", class: "logIn__btn"do
+      ログイン
     = link_to "/users/new", class: "signUp__btn"do
       新規登録
