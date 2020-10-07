@@ -29,7 +29,7 @@
       justify-content: space-around;
     }
 
-    .topPage__btn {
+    .myPage__btn {
       width: 80px;
       color: black;
       font-size: 10px;
@@ -37,15 +37,19 @@
       text-decoration: none;
     }
 
-    .logIn {
+    .logIn__btn {
       width: 70px;
       font-size: 10px;
       padding-right: 10px;
+      color: black;
+      text-decoration: none;
     }
-    .signUp {
+    .signUp__btn {
       width: 70px;
       font-size: 10px;
       padding-right: 10px;
+      color: black;
+      text-decoration: none;
     }
   }
 }
