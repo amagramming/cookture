@@ -1,4 +1,4 @@
-.sellBtn {
+.post__btn {
   width: 50px;
   height: 50Px;
   background-color: palevioletred;
@@ -10,8 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  &__text{
-    color: #fff;
-    font-size: 15px;
-  }
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
 }
