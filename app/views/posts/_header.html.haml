@@ -1,6 +1,6 @@
 .header
   .header-contents
-    .title 
+    = link_to "/", class: "title" do
       .mainTitle Cookture
       .subTitle ~料理の画像投稿サイト~
     .genres
@@ -9,9 +9,9 @@
       .salad Salad
       .alacarte A la carte
       .other Other
-    = link_to "/", class: "topPage__btn"do
-      トップページ
-    = link_to "/users/:id/edit", class: "logIn__btn"do
+    = link_to "/", class: "myPage__btn" do
+      マイページ
+    = link_to "/users/:id/edit", class: "logIn__btn" do
       ログイン
-    = link_to "/users/new", class: "signUp__btn"do
+    = link_to "/users/new", class: "signUp__btn" do
       新規登録
