@@ -34,9 +34,11 @@
       &__text {
         margin-left: 100px;
       }
-      .editBtn {
+      .edit__btn {
         position: absolute;
-        right: 70px
+        right: 70px;
+        color: red;
+        text-decoration: none ;
       }
     }
   }
