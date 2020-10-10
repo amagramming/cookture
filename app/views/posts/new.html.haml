@@ -1,9 +1,13 @@
 //投稿ページを作成する
 .postPage
   .postPage__contents
-    .image
-      .image__box 料理画像
-    .menu メニュー名
-    .genre ジャンル
-    .recipe レシピ内容
-    .postBtn 投稿ボタン
+    = form_with model: @item, class: "item-", local: true do |f|
+      .item__image
+        .item__image__box 料理画像
+      .menu
+        .menuName メニュー名
+        .menuName__box
+          = f.text_field :name, class: "menuName__box__input"
+      .genre ジャンル
+      .recipe レシピ内容
+      .postBtn 投稿ボタン

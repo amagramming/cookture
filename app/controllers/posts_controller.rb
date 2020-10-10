@@ -1,13 +1,13 @@
 class PostsController < ApplicationController
-  def index  
-    
+  def index 
+    @items = Item.all
   end
 
-  def new  
-
+  def new 
+    @items = Item.new
   end
 
-  def edit  
+  def edit 
 
   end
 
