@@ -1,4 +1,3 @@
-//投稿ページを作成する
 .postPage
   .postPage__contents
     = form_with model: @item, class: "item-", local: true do |f|
@@ -8,6 +7,12 @@
         .menuName メニュー名
         .menuName__box
           = f.text_field :name, class: "menuName__box__input"
-      .genre ジャンル
-      .recipe レシピ内容
+      .genre 
+        .genreName ジャンル名
+        .genreName__box
+          = f.text_field :name, class: "genreName__box__input"
+      .recipe 
+        .recipeContents レシピ内容
+        .recipe__box
+          = f.text_area :name, class: "recipe__box__input"
       .postBtn 投稿ボタン
