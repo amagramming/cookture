@@ -15,4 +15,5 @@
         .recipeContents レシピ内容
         .recipe__box
           = f.text_area :name, class: "recipe__box__input"
-      .postBtn 投稿ボタン
+      .postBtn
+        = f.submit "投稿", class: "postBtn__submit"
