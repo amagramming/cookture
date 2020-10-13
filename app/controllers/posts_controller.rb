@@ -12,7 +12,11 @@ class PostsController < ApplicationController
   end
 
   def create
-    Item.create(name: params[:name])
+    Item.create(item_params)
+  end
+
+  def item_params
+    params.require(:item).permit(:name)
   end
 
 end

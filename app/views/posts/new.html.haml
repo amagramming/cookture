@@ -1,6 +1,6 @@
 .postPage
   .postPage__contents
-    = form_with model: @item, url: "/posts", class: "item-", local: true do |f|
+    = form_with url: "/posts", method: post, local: true do |f|
       .item__image
         .item__image__box 料理画像
       .menu
@@ -10,7 +10,7 @@
       .genre 
         .genreName ジャンル名
         .genreName__box
-          = f.text_field :name, class: "genreName__box__input"
+          = f.text_field :category, class: "genreName__box__input"
       .recipe 
         .recipeContents レシピ内容
         .recipe__box
