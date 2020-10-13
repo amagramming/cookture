@@ -11,6 +11,10 @@ class PostsController < ApplicationController
 
   end
 
+  def create
+    Item.create(name: params[:name])
+  end
+
 end
 
 

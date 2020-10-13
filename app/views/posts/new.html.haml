@@ -1,6 +1,6 @@
 .postPage
   .postPage__contents
-    = form_with model: @item, class: "item-", local: true do |f|
+    = form_with model: @item, url: "/posts", class: "item-", local: true do |f|
       .item__image
         .item__image__box 料理画像
       .menu
