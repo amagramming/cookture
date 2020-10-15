@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   &__contents {
-    width: 1200px;
+    width: 1500px;
     .image {
       display: flex;
       justify-content: center;
@@ -16,18 +16,29 @@
     .menu {
       text-align: center;
       background-color: pink;
+      padding-bottom: 20px;
     }
     .genre {
       text-align: center;
       background-color: pink;
+      padding-bottom: 20px;
     }
     .recipe {
       text-align: center;
       background-color: pink;
-    }
+      padding-bottom: 20px;
+      &__box__input {
+        width: 400px;
+        height: 250px;
+      }
+    }   
     .postBtn {
       text-align: center;
       background-color: pink;
+      padding-bottom: 50px;
+      &__submit {
+        margin-top: 20px;
+      }
     }
   }
 }
