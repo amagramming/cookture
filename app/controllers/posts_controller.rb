@@ -16,7 +16,7 @@ class PostsController < ApplicationController
   end
 
   def item_params
-    params.require(:item).permit(:name)
+    params.permit(:name, :image, :text, :category)
   end
 
 end
