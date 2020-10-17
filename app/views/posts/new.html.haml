@@ -1,8 +1,12 @@
 .postPage
+  .postPage__title
+    新規投稿ページ
   .postPage__contents
     = form_with model: @item, url: "/posts", class: "item-", local: true do |f|
       .image
-        .image__box 料理画像
+        .imageName 料理画像
+        .imageName__box
+          = f.file_field :image, class: "imageName__box__input"
       .menu
         .menuName メニュー名
         .menuName__box
