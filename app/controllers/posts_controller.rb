@@ -4,7 +4,7 @@ class PostsController < ApplicationController
   end
 
   def new 
-    @items = Item.new
+    @item = Item.new
   end
 
   def edit 
@@ -16,7 +16,7 @@ class PostsController < ApplicationController
   end
 
   def item_params
-    params.permit(:name, :image, :text, :category)
+    params.require(:item).permit(:name, :image, :text, :category)
   end
 
 end
