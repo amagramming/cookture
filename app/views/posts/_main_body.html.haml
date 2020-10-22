@@ -7,14 +7,6 @@
       %p A la carte
       %p Other
   - @items.each do |item|
-    .genreList__contents
-      .genreList__content
-        .genreList__content__picture コンテンツ写真<!縦に５品まで、それ以上はページ遷移 画像複数枚をスライドで>
-        .genreList__content__text
-          .genreList__content__mame
-            料理名：#{item.name}
-          %p レシピ 
-          %p レシピ
-          %p レシピ
-        = link_to "/posts/:id/edit", class: "edit__btn" do
-          編集
+    = render @messages
+  = link_to "/posts/:id/edit", class: "edit__btn" do
+    編集
