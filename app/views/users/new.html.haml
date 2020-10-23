@@ -2,6 +2,21 @@
   .title
     新規登録画面
   .textBox
-    .nickname ニックネーム
-    .email メールアドレス
-    .password パスワード
+    = form_with model: @user, local: true do |f|
+      .nickname
+        .nickname__text ニックネーム
+        .nickname__box
+          = f.text_field :nickname, class: "nickname__box__input"
+      .email 
+        .email__text メールアドレス
+        .email__box
+          = f.text_field :email, class: "email__box__input"
+      .password 
+        .password__text パスワード
+        .password__box
+          = f.text_field :password, class: "password__box__input"
+      .signUp__btn
+        = f.submit "登録", class: "signUp__btn__submit"
+
+
+        //deviseでビュー作成しなくてはならない？
