@@ -14,11 +14,14 @@
 ## itemsテーブル
 |Column|Type|Options|
 |------|----|-------|
+|name|string||
 |image|text||
 |text|text||
 |user_id|integer|null: false, foreign_key: true|
 ### Association
 - belongs_to :user
+- belongs_to :item
+- has_many :images
 
 ## imagesテーブル
 |Column|Type|Options|
@@ -30,8 +33,7 @@
 ## categoriesテーブル
 |Column|Type|Options|
 |------|----|-------|
-|text|text|null: false|
-|user_id|integer|null: false, foreign_key: true|
-|tweet_id|integer|null: false, foreign_key: true|
+|name|string|null: false|
+
 ### Association
 - has_many :items
