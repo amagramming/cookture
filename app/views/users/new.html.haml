@@ -2,7 +2,7 @@
   .title
     新規登録画面
   .textBox
-    = form_with model: @user, local: true do |f|
+    = form_with model: @user, url: new_user_url, local: true do |f|
       .nickname
         .nickname__text ニックネーム
         .nickname__box
