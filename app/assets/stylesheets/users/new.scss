@@ -1,9 +1,25 @@
 .signUp__page {
   background-color: pink;
   .title {
+    font-size: 25px;
+    color: purple;
     text-align: center;
+    padding-top: 20px;
   }
   .textBox {
     text-align: center;
+    padding-top: 20px;
+    .nickname {
+      padding-top: 20px;
+    }
+    .email {
+      padding-top: 20px;
+    }
+    .password {
+      padding-top: 20px;
+    }
+    .signUp__btn {
+      padding: 20px 0;
+    }
   }
 }
