@@ -2,7 +2,7 @@
   .postPage__title
     新規投稿ページ
   .postPage__contents
-    = form_with model: @item, local: true do |f|
+    = form_with local: true do |f|
       .image
         .imageName 料理画像
         .imageName__box
@@ -21,3 +21,5 @@
           = f.text_area :text, class: "recipe__box__input"
       .postBtn
         = f.submit "投稿", class: "postBtn__submit"
+
+        //5行目= form_with model: @item, local: true do |f|？
