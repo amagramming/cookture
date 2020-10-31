@@ -1,8 +1,23 @@
 .editPage
+  .editPage__title
+    編集ページ
   .editPage__contents
-    .image
-      .image__box 画像
-    .menu メニュー
-    .genre ジャンル
-    .recipe レシピ
-    .editBtn 編集ボタン
+    = form_with local: true do |f|
+      .image
+        .imageName 料理画像
+        .imageName__box
+          = f.file_field :image, class: "imageName__box__input"
+      .menu
+        .menuName メニュー名
+        .menuName__box
+          = f.text_field :name, class: "menuName__box__input"
+      .genre 
+        .genreName ジャンル名
+        .genreName__box
+          = f.text_field :category, class: "genreName__box__input"
+      .recipe 
+        .recipeContents レシピ内容
+        .recipe__box
+          = f.text_area :text, class: "recipe__box__input"
+      .editBtn
+        = f.submit "投稿", class: "postBtn__submit"
