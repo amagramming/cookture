@@ -8,24 +8,24 @@
     align-items: center;
     .title {
       width: 300px;
-      padding-left: 70px;
+      padding-left: 50px;
       color: red;
       text-decoration: none;
       .mainTitle {
         font-size: 35px;
-        padding-left: 15px;
+        padding-left: 20px;
         text-shadow: 1px 1px 20px;
-      }
+    }
       .subTitle {
         font-size: 18px;
         text-shadow: 3px 3px 15px;
       }
     }
     .genres {
-      font-size: 25px;
+      font-size: 20px;
       font-family: fantasy;
       color: orangered;
-      width: calc(100vw - 300px);
+      width: calc(100vw - 500px);
       display: flex;
       justify-content: space-around;
     }
@@ -39,14 +39,14 @@
     .logIn__btn {
       width: 70px;
       color: orange;
-      font-size: 10px;
+      font-size: 15px;
       padding-right: 10px;
       text-decoration: none;
     }
     .signUp__btn {
       width: 70px;
       color: orange;
-      font-size: 10px;
+      font-size: 15px;
       padding-right: 10px;
       text-decoration: none;
     }
