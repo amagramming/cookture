@@ -7,10 +7,6 @@ class PostsController < ApplicationController
     @item = Item.new
   end
 
-  def edit 
-
-  end
-
   def create
     Item.create(item_params)
   end
