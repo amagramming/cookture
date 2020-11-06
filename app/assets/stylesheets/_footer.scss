@@ -1,12 +1,12 @@
 .footer {
   background-color: lightyellow;
   .footer-contents {
+    color: orangered;
     height: 200px;
-    padding-top: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
     .title {
+      padding-left: 450px;
       width: auto;
       height: 80px;
       color: orangered;
@@ -14,12 +14,15 @@
       .mainTitle {
         font-size: 30px;
         padding-left: 20px;
-        text-shadow: 1px 1px 20px;
+        //text-shadow: 1px 1px 20px;
       }
       .subTitle {
         width: 200px;
-        text-shadow: 3px 3px 20px;
+        //text-shadow: 3px 3px 20px;
       }
+    }
+    .text {
+      padding-left: 80px;
     }
   }
 }
