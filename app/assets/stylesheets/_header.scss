@@ -24,10 +24,29 @@
     .genres {
       font-size: 20px;
       font-family: fantasy;
-      color: orangered;
       width: calc(100vw - 500px);
       display: flex;
       justify-content: space-around;
+      .pasta {
+        color: orangered;
+        text-decoration: none;
+      }
+      .pizza {
+        color: orangered;
+        text-decoration: none;
+      }
+      .salad {
+        color: orangered;
+        text-decoration: none;
+      }
+      .alacarte {
+        color: orangered;
+        text-decoration: none;
+      }
+      .other {
+        color: orangered;
+        text-decoration: none;
+      }
     }
     //.myPage__btn {
     //  width: 80px;

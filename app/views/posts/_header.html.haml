@@ -4,11 +4,16 @@
       .mainTitle Cookture
       .subTitle ~料理の画像投稿サイト~
     .genres
-      .pasta Pasta
-      .pizza Pizza
-      .salad Salad
-      .alacarte A la carte
-      .other Other
+      = link_to "", class: "pasta" do
+        Pasta
+      = link_to "", class: "pizza" do
+        Pizza
+      = link_to "", class: "salad" do
+        Salad
+      = link_to "", class: "alacarte" do
+        A la carte
+      = link_to "", class: "other" do
+        Other
     = link_to "/sessions/new", class: "logIn__btn" do
       ログイン
     = link_to "/users/new", class: "signUp__btn" do
