@@ -1,12 +1,21 @@
 .editPage {
   display: flex;
   justify-content: center;
+  background-color: pink;
   &__contents {
+    color: mediumslateblue;
     width: 1200px;
+    .title {
+      font-size: 25px;
+      text-align: center;
+      padding: 30px 0;
+    }
     .image {
-      display: flex;
-      justify-content: center;
-      background-color: pink;
+      text-align: center;
+      padding-bottom: 30px;
+      .imageName {
+        padding-bottom: 10px;
+      }
       &__box {
         text-align: center;
         width: 300px;
@@ -15,19 +24,19 @@
     }
     .menu {
       text-align: center;
-      background-color: pink;
+      padding-bottom: 30px;
     }
     .genre {
       text-align: center;
-      background-color: pink;
+      padding-bottom: 30px;
     }
     .recipe {
       text-align: center;
-      background-color: pink;
+      padding-bottom: 30px;
     }
     .editBtn {
       text-align: center;
-      background-color: pink;
+      padding-bottom: 30px;
     }
   }
 }
