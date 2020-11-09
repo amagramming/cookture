@@ -1,7 +1,7 @@
 .editPage
-  .editPage__title
-    編集ページ
   .editPage__contents
+    .title
+      編集ページ
     = form_with local: true do |f|
       .image
         .imageName 料理画像
@@ -20,4 +20,4 @@
         .recipe__box
           = f.text_area :text, class: "recipe__box__input"
       .editBtn
-        = f.submit "投稿", class: "postBtn__submit"
+        = f.submit "編集", class: "postBtn__submit"
