@@ -1,11 +1,16 @@
 .mainPage
   .genreList
-    .genreName
-      %p Pasta
-      %p Pizza
-      %p Salad
-      %p A la carte
-      %p Other
+    .genres
+      = link_to "", class: "pasta" do
+        Pasta
+      = link_to "", class: "pizza" do
+        Pizza
+      = link_to "", class: "salad" do
+        Salad
+      = link_to "", class: "alacarte" do
+        A la carte
+      = link_to "", class: "other" do
+        Other
   - @items.each do |item|
     = render @messages
   = link_to "/posts/:id/edit", class: "edit__btn" do

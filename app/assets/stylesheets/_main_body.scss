@@ -3,15 +3,44 @@
   display: flex;
   .genreList {
     width: 250px;
-    height: 1000px;
     background-color: lightsteelblue;
     position: relative;
-    .genreName {
+    .genres {
+      width: 190px;
+      height: 960px;
       color: red;
       position: absolute;
       top: 40px;
       left: 40px;
-      p {
+      display: flex;
+      flex-direction: column;
+      .pasta {
+        color: orangered;
+        text-decoration: none;
+        margin: 70px 0 0 30px;
+        font-family: fantasy;
+      }
+      .pizza {
+        color: orangered;
+        text-decoration: none;
+        margin: 70px 0 0 30px;
+        font-family: fantasy;
+      }
+      .salad {
+        color: orangered;
+        text-decoration: none;
+        margin: 70px 0 0 30px;
+        font-family: fantasy;
+      }
+      .alacarte {
+        color: orangered;
+        text-decoration: none;
+        margin: 70px 0 0 30px;
+        font-family: fantasy;
+      }
+      .other {
+        color: orangered;
+        text-decoration: none;
         margin: 70px 0 0 30px;
         font-family: fantasy;
       }
