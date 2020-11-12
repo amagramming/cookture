@@ -1,3 +1,18 @@
 .mypage {
-  color: blueviolet;
+  background-color:pink ;
+  .title {
+    font-size: 35px;
+    color: blueviolet;
+    padding: 30px 0 0 30px;
+  }
+  .user_contents {
+    display: flex;
+    .userInfo {
+      width: 500px;
+      padding: 50px 0 0 50px;
+    }
+    .postInfo {
+      
+    }
+  }
 }
