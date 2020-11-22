@@ -9,6 +9,8 @@
         nickname
       .email
         email
+      = link_to "/", class: "userInfo__editBtn" do
+        編集する
     .postInfo
       投稿履歴
     = link_to "/posts/:id/edit", class: "editBtn" do
